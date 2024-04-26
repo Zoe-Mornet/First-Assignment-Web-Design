@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Londrina+Solid&display=swap');
+
+* {
+   margin: 0;
+   box-sizing: border-box;
+    }
+
+ h1, h2{
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: #01164B;
+    text-align: left;
+    line-height: 120px;
+ }
+
+ h1 {
+   text-transform: uppercase;
+   text-decoration: underline;
+   font-size: 54px;
+}
+
+header, section { 
+    width: 83.33%;
+    margin: 0 auto;
+    margin-bottom: 4em;
+   }
+  
+ p {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    margin-bottom:54px ;
+ }
+
+a { 
+    color: #01164B;
+    border: 1px #2C313F solid;
+    padding: 0.5em 1em;
+}
+
+ a:hover { 
+    color: #36d4ca;
+ }
+
+ #secondSection { 
+    width: 100%;
+    background-color: #dfebf7;
+   }
+
+div {
+    width: 83.33%;
+    margin:0 auto; 
+  }
+
+ div p {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    margin-bottom:64px ;
+    text-align: left;
+ }
+
+div div {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+#secondSection img {
+    width: 40%; 
+    margin-bottom: 2em; 
+  }
+
+img {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+#section4 div {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 4em;
+    margin-right: 20px;
+    align-items: center;
+ }
+
+ #section4 img {
+   width: 420px;
+   height: 400px;
+   margin-right: 6px ;
+
+}
+
+ footer {
+   background-color: #01164B;
+   height: 200px;
+   width: 100%;
+   margin: 0;
+   }
+
+
+ @media (max-width: 768px)  {
+    main  {
+        flex-direction: column;
+
+     }
+ }
